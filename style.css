@@ -9,13 +9,17 @@ body {
     top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
+    background-color: rgba(255,255,255,0.5);
+    border-radius: 25px;
+    padding-left: 5px;
+    padding-right: 5px;
 }
 
 .sticky {
     position: fixed;
     top: 0;
     width: 100%;
-    background-color: #f1f1f1;
+    background-color: lightgray;
     padding: 10px;
     z-index: 100;
     left: 50%;
@@ -24,8 +28,6 @@ body {
 
 .header {
     display: inline;
-    /*moet hele header zijn*/
-    background-color: aqua;
     background-size: cover;
 
 }
@@ -53,16 +55,9 @@ a:active {
     color: black;
 }
 
-.coverImage {
+body {
     object-fit: cover;
     /* The image used */
-  background-image: url("https://static.wixstatic.com/media/10b1bd_e1f72f3d846f47a8a36b830777bb2ee9~mv2_d_8688_3888_s_4_2.jpg/v1/fill/w_1348,h_697,al_c,q_90,enc_auto/10b1bd_e1f72f3d846f47a8a36b830777bb2ee9~mv2_d_8688_3888_s_4_2.jpg");
-
-  /* Full height */
-  height: 100%; 
-
-  /* Center and scale the image nicely */
-  background-position: center;
+  background-image: url('images/home.jpg');
   background-repeat: no-repeat;
-  background-size: cover;
 }
