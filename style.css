@@ -55,9 +55,19 @@ a:active {
     color: black;
 }
 
-body {
-    object-fit: cover;
-    /* The image used */
-  background-image: url('images/home.jpg');
-  background-repeat: no-repeat;
+.coverImage {
+    width: 100%;
+    margin: -8px;
+    height: 100%;
+}
+
+.over {
+    text-align: center;
+    background-color: lightgray;
+    border-radius: 25px;
+}
+
+.overTitle {
+    padding-top: 3px;
+    padding-bottom: 3px;
 }
